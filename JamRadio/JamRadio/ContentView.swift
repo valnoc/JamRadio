@@ -2,15 +2,15 @@
 //  ContentView.swift
 //  JamRadio
 //
-//  Created by Valeriy Bezuglyy on 29.08.2020.
-//  Copyright © 2020 Valerii Bezuglyi. All rights reserved.
+//  Created by Valeriy Bezuglyy on 28.09.2020.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("Hello, world!")
+            .padding()
     }
 }
 

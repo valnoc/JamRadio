@@ -7,27 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B223F0B24FA7115005FBAD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B223F0A24FA7115005FBAD0 /* AppDelegate.swift */; };
-		5B223F0D24FA7115005FBAD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B223F0C24FA7115005FBAD0 /* SceneDelegate.swift */; };
-		5B223F0F24FA7115005FBAD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B223F0E24FA7115005FBAD0 /* ContentView.swift */; };
-		5B223F1124FA7116005FBAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B223F1024FA7116005FBAD0 /* Assets.xcassets */; };
-		5B223F1424FA7116005FBAD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B223F1324FA7116005FBAD0 /* Preview Assets.xcassets */; };
-		5B223F1724FA7116005FBAD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B223F1524FA7116005FBAD0 /* LaunchScreen.storyboard */; };
+		5B69BEC22522606100DCC379 /* JamRadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69BEC12522606100DCC379 /* JamRadioApp.swift */; };
+		5B69BEC42522606100DCC379 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69BEC32522606100DCC379 /* ContentView.swift */; };
+		5B69BEC62522606200DCC379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B69BEC52522606200DCC379 /* Assets.xcassets */; };
+		5B69BEC92522606200DCC379 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B69BEC82522606200DCC379 /* Preview Assets.xcassets */; };
+		5B69BED42522606200DCC379 /* JamRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69BED32522606200DCC379 /* JamRadioTests.swift */; };
+		5B69BEDF2522606200DCC379 /* JamRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69BEDE2522606200DCC379 /* JamRadioUITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5B69BED02522606200DCC379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B69BEB62522606100DCC379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B69BEBD2522606100DCC379;
+			remoteInfo = JamRadio;
+		};
+		5B69BEDB2522606200DCC379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B69BEB62522606100DCC379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B69BEBD2522606100DCC379;
+			remoteInfo = JamRadio;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		5B223F0724FA7115005FBAD0 /* JamRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JamRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B223F0A24FA7115005FBAD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B223F0C24FA7115005FBAD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B223F0E24FA7115005FBAD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5B223F1024FA7116005FBAD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5B223F1324FA7116005FBAD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5B223F1624FA7116005FBAD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5B223F1824FA7116005FBAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B69BEBE2522606100DCC379 /* JamRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JamRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B69BEC12522606100DCC379 /* JamRadioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamRadioApp.swift; sourceTree = "<group>"; };
+		5B69BEC32522606100DCC379 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B69BEC52522606200DCC379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B69BEC82522606200DCC379 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B69BECA2522606200DCC379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B69BECF2522606200DCC379 /* JamRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B69BED32522606200DCC379 /* JamRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamRadioTests.swift; sourceTree = "<group>"; };
+		5B69BED52522606200DCC379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B69BEDA2522606200DCC379 /* JamRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B69BEDE2522606200DCC379 /* JamRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamRadioUITests.swift; sourceTree = "<group>"; };
+		5B69BEE02522606200DCC379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B223F0424FA7115005FBAD0 /* Frameworks */ = {
+		5B69BEBB2522606100DCC379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B69BECC2522606200DCC379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B69BED72522606200DCC379 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,54 +72,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B223EFE24FA7115005FBAD0 = {
+		5B69BEB52522606100DCC379 = {
 			isa = PBXGroup;
 			children = (
-				5B223F0924FA7115005FBAD0 /* JamRadio */,
-				5B223F0824FA7115005FBAD0 /* Products */,
+				5B69BEC02522606100DCC379 /* JamRadio */,
+				5B69BED22522606200DCC379 /* JamRadioTests */,
+				5B69BEDD2522606200DCC379 /* JamRadioUITests */,
+				5B69BEBF2522606100DCC379 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5B223F0824FA7115005FBAD0 /* Products */ = {
+		5B69BEBF2522606100DCC379 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B223F0724FA7115005FBAD0 /* JamRadio.app */,
+				5B69BEBE2522606100DCC379 /* JamRadio.app */,
+				5B69BECF2522606200DCC379 /* JamRadioTests.xctest */,
+				5B69BEDA2522606200DCC379 /* JamRadioUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B223F0924FA7115005FBAD0 /* JamRadio */ = {
+		5B69BEC02522606100DCC379 /* JamRadio */ = {
 			isa = PBXGroup;
 			children = (
-				5B223F0A24FA7115005FBAD0 /* AppDelegate.swift */,
-				5B223F0C24FA7115005FBAD0 /* SceneDelegate.swift */,
-				5B223F0E24FA7115005FBAD0 /* ContentView.swift */,
-				5B223F1024FA7116005FBAD0 /* Assets.xcassets */,
-				5B223F1524FA7116005FBAD0 /* LaunchScreen.storyboard */,
-				5B223F1824FA7116005FBAD0 /* Info.plist */,
-				5B223F1224FA7116005FBAD0 /* Preview Content */,
+				5B69BEC12522606100DCC379 /* JamRadioApp.swift */,
+				5B69BEC32522606100DCC379 /* ContentView.swift */,
+				5B69BEC52522606200DCC379 /* Assets.xcassets */,
+				5B69BECA2522606200DCC379 /* Info.plist */,
+				5B69BEC72522606200DCC379 /* Preview Content */,
 			);
 			path = JamRadio;
 			sourceTree = "<group>";
 		};
-		5B223F1224FA7116005FBAD0 /* Preview Content */ = {
+		5B69BEC72522606200DCC379 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5B223F1324FA7116005FBAD0 /* Preview Assets.xcassets */,
+				5B69BEC82522606200DCC379 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B69BED22522606200DCC379 /* JamRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B69BED32522606200DCC379 /* JamRadioTests.swift */,
+				5B69BED52522606200DCC379 /* Info.plist */,
+			);
+			path = JamRadioTests;
+			sourceTree = "<group>";
+		};
+		5B69BEDD2522606200DCC379 /* JamRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B69BEDE2522606200DCC379 /* JamRadioUITests.swift */,
+				5B69BEE02522606200DCC379 /* Info.plist */,
+			);
+			path = JamRadioUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B223F0624FA7115005FBAD0 /* JamRadio */ = {
+		5B69BEBD2522606100DCC379 /* JamRadio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B223F1B24FA7116005FBAD0 /* Build configuration list for PBXNativeTarget "JamRadio" */;
+			buildConfigurationList = 5B69BEE32522606200DCC379 /* Build configuration list for PBXNativeTarget "JamRadio" */;
 			buildPhases = (
-				5B223F0324FA7115005FBAD0 /* Sources */,
-				5B223F0424FA7115005FBAD0 /* Frameworks */,
-				5B223F0524FA7115005FBAD0 /* Resources */,
+				5B69BEBA2522606100DCC379 /* Sources */,
+				5B69BEBB2522606100DCC379 /* Frameworks */,
+				5B69BEBC2522606100DCC379 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -92,25 +147,68 @@
 			);
 			name = JamRadio;
 			productName = JamRadio;
-			productReference = 5B223F0724FA7115005FBAD0 /* JamRadio.app */;
+			productReference = 5B69BEBE2522606100DCC379 /* JamRadio.app */;
 			productType = "com.apple.product-type.application";
+		};
+		5B69BECE2522606200DCC379 /* JamRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B69BEE62522606200DCC379 /* Build configuration list for PBXNativeTarget "JamRadioTests" */;
+			buildPhases = (
+				5B69BECB2522606200DCC379 /* Sources */,
+				5B69BECC2522606200DCC379 /* Frameworks */,
+				5B69BECD2522606200DCC379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B69BED12522606200DCC379 /* PBXTargetDependency */,
+			);
+			name = JamRadioTests;
+			productName = JamRadioTests;
+			productReference = 5B69BECF2522606200DCC379 /* JamRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B69BED92522606200DCC379 /* JamRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B69BEE92522606200DCC379 /* Build configuration list for PBXNativeTarget "JamRadioUITests" */;
+			buildPhases = (
+				5B69BED62522606200DCC379 /* Sources */,
+				5B69BED72522606200DCC379 /* Frameworks */,
+				5B69BED82522606200DCC379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B69BEDC2522606200DCC379 /* PBXTargetDependency */,
+			);
+			name = JamRadioUITests;
+			productName = JamRadioUITests;
+			productReference = 5B69BEDA2522606200DCC379 /* JamRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5B223EFF24FA7115005FBAD0 /* Project object */ = {
+		5B69BEB62522606100DCC379 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = "Valerii Bezuglyi";
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					5B223F0624FA7115005FBAD0 = {
-						CreatedOnToolsVersion = 11.6;
+					5B69BEBD2522606100DCC379 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5B69BECE2522606200DCC379 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5B69BEBD2522606100DCC379;
+					};
+					5B69BED92522606200DCC379 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5B69BEBD2522606100DCC379;
 					};
 				};
 			};
-			buildConfigurationList = 5B223F0224FA7115005FBAD0 /* Build configuration list for PBXProject "JamRadio" */;
+			buildConfigurationList = 5B69BEB92522606100DCC379 /* Build configuration list for PBXProject "JamRadio" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,55 +216,87 @@
 				en,
 				Base,
 			);
-			mainGroup = 5B223EFE24FA7115005FBAD0;
-			productRefGroup = 5B223F0824FA7115005FBAD0 /* Products */;
+			mainGroup = 5B69BEB52522606100DCC379;
+			productRefGroup = 5B69BEBF2522606100DCC379 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B223F0624FA7115005FBAD0 /* JamRadio */,
+				5B69BEBD2522606100DCC379 /* JamRadio */,
+				5B69BECE2522606200DCC379 /* JamRadioTests */,
+				5B69BED92522606200DCC379 /* JamRadioUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B223F0524FA7115005FBAD0 /* Resources */ = {
+		5B69BEBC2522606100DCC379 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B223F1724FA7116005FBAD0 /* LaunchScreen.storyboard in Resources */,
-				5B223F1424FA7116005FBAD0 /* Preview Assets.xcassets in Resources */,
-				5B223F1124FA7116005FBAD0 /* Assets.xcassets in Resources */,
+				5B69BEC92522606200DCC379 /* Preview Assets.xcassets in Resources */,
+				5B69BEC62522606200DCC379 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B69BECD2522606200DCC379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B69BED82522606200DCC379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5B223F0324FA7115005FBAD0 /* Sources */ = {
+		5B69BEBA2522606100DCC379 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B223F0B24FA7115005FBAD0 /* AppDelegate.swift in Sources */,
-				5B223F0D24FA7115005FBAD0 /* SceneDelegate.swift in Sources */,
-				5B223F0F24FA7115005FBAD0 /* ContentView.swift in Sources */,
+				5B69BEC42522606100DCC379 /* ContentView.swift in Sources */,
+				5B69BEC22522606100DCC379 /* JamRadioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B69BECB2522606200DCC379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B69BED42522606200DCC379 /* JamRadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B69BED62522606200DCC379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B69BEDF2522606200DCC379 /* JamRadioUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		5B223F1524FA7116005FBAD0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B223F1624FA7116005FBAD0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		5B69BED12522606200DCC379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B69BEBD2522606100DCC379 /* JamRadio */;
+			targetProxy = 5B69BED02522606200DCC379 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+		5B69BEDC2522606200DCC379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B69BEBD2522606100DCC379 /* JamRadio */;
+			targetProxy = 5B69BEDB2522606200DCC379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5B223F1924FA7116005FBAD0 /* Debug */ = {
+		5B69BEE12522606200DCC379 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,6 +322,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -216,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -226,7 +357,7 @@
 			};
 			name = Debug;
 		};
-		5B223F1A24FA7116005FBAD0 /* Release */ = {
+		5B69BEE22522606200DCC379 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,6 +383,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -270,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,14 +412,16 @@
 			};
 			name = Release;
 		};
-		5B223F1C24FA7116005FBAD0 /* Debug */ = {
+		5B69BEE42522606200DCC379 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"JamRadio/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = JamRadio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,14 +433,16 @@
 			};
 			name = Debug;
 		};
-		5B223F1D24FA7116005FBAD0 /* Release */ = {
+		5B69BEE52522606200DCC379 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"JamRadio/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = JamRadio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,28 +454,126 @@
 			};
 			name = Release;
 		};
+		5B69BEE72522606200DCC379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamRadioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.valeriibezuglyi.JamRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JamRadio.app/JamRadio";
+			};
+			name = Debug;
+		};
+		5B69BEE82522606200DCC379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamRadioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.valeriibezuglyi.JamRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JamRadio.app/JamRadio";
+			};
+			name = Release;
+		};
+		5B69BEEA2522606200DCC379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.valeriibezuglyi.JamRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JamRadio;
+			};
+			name = Debug;
+		};
+		5B69BEEB2522606200DCC379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.valeriibezuglyi.JamRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JamRadio;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B223F0224FA7115005FBAD0 /* Build configuration list for PBXProject "JamRadio" */ = {
+		5B69BEB92522606100DCC379 /* Build configuration list for PBXProject "JamRadio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B223F1924FA7116005FBAD0 /* Debug */,
-				5B223F1A24FA7116005FBAD0 /* Release */,
+				5B69BEE12522606200DCC379 /* Debug */,
+				5B69BEE22522606200DCC379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B223F1B24FA7116005FBAD0 /* Build configuration list for PBXNativeTarget "JamRadio" */ = {
+		5B69BEE32522606200DCC379 /* Build configuration list for PBXNativeTarget "JamRadio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B223F1C24FA7116005FBAD0 /* Debug */,
-				5B223F1D24FA7116005FBAD0 /* Release */,
+				5B69BEE42522606200DCC379 /* Debug */,
+				5B69BEE52522606200DCC379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B69BEE62522606200DCC379 /* Build configuration list for PBXNativeTarget "JamRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B69BEE72522606200DCC379 /* Debug */,
+				5B69BEE82522606200DCC379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B69BEE92522606200DCC379 /* Build configuration list for PBXNativeTarget "JamRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B69BEEA2522606200DCC379 /* Debug */,
+				5B69BEEB2522606200DCC379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5B223EFF24FA7115005FBAD0 /* Project object */;
+	rootObject = 5B69BEB62522606100DCC379 /* Project object */;
 }
